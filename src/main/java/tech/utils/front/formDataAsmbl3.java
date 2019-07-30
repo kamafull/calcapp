@@ -1,9 +1,10 @@
+fff
 package tech.utils.front;
 
 public class formDataAsmbl3 {
 
 
-    public String list (int eq_type){
+    public S111133tring list (int eq_type){
         String list = "Error in file name";
         if (eq_type == 1) {
             list = "[\n" +
