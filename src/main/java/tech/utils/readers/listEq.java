@@ -22,8 +22,14 @@ public class listEq {
     public listEq(JSONArray list_eq){
 
     for (int i = 0; i < list_eq.length(); i++){
+        int poles;
+
 
         a = (JSONObject) list_eq.get(i);
+
+        //пиздец
+        if (a.getInt("voltage") == 230 ) poles = 2;
+        else if (a.getInt("voltage") == 400)poles = 4;
 
         if (a.getInt("eq_type") == 1){
             listCb.add(new circuitbreaker(a.getInt("current"), a.getInt("voltage"), a.getInt("mnf"), a.getInt("poles"), a.getString("series") ,4, "C", a.getInt("amount")));
@@ -38,7 +44,7 @@ public class listEq {
         }
 
         if (a.getInt("eq_type") == 4){
-            listPmeter.add(new powermeter(a.getInt("mnf"), a.getInt("voltage"), a.getInt("current"),a.getInt("tariff") ,a.getInt("amount")));
+            listPmeter.add(new powermeter(a.getInt("mnf"), a.getInt("voltage"), 60,a.getInt("tariff") ,a.getInt("amount")));
         }
 
     }

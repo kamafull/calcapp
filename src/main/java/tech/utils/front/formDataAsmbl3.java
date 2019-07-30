@@ -8,7 +8,7 @@ public class formDataAsmbl3 {
         if (eq_type == 1) {
             list = "[\n" +
                     "       {\n" +
-                    "          \"name\": \"cb_current\",\n" +
+                    "          \"name\": \"current\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Номинальный ток, А\",\n" +
                     "          \"values\": [\n" +
@@ -23,7 +23,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"cb_voltage\",\n" +
+                    "          \"name\": \"voltage\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Напряжение, В\",\n" +
                     "          \"values\": [\n" +
@@ -32,7 +32,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"cb_mnf\",\n" +
+                    "          \"name\": \"mnf\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Производитель\",\n" +
                     "          \"values\": [\n" +
@@ -47,22 +47,22 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"cb_series\",\n" +
+                    "          \"name\": \"series\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Серия\",\n" +
                     "          \"values\": [\n" +
                     "             {\n" +
-                    "                \"name\": \"Квартирная серия ВА47-29\",\n" +
-                    "                \"value\": 0\n" +
+                    "                \"name\": \"ВА47-29 (MVA20)\",\n" +
+                    "                \"value\": \"ВА47-29 (MVA20)\"\n" +
                     "             },\n" +
                     "             {\n" +
-                    "                \"name\": \"Квартирная серия SH200\",\n" +
-                    "                \"value\": 1\n" +
+                    "                \"name\": \"BasicM (Квартирный)\",\n" +
+                    "                \"value\": \"BasicM (Квартирный)\"\n" +
                     "             }\n" +
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"cb_amount\",\n" +
+                    "          \"name\": \"amount\",\n" +
                     "          \"type\": \"fieldInput\",\n" +
                     "          \"title\": \"Количество\",\n" +
                     "          \"value\": \"\"\n" +
@@ -73,7 +73,7 @@ public class formDataAsmbl3 {
 
             list = "[\n" +
                     "       {\n" +
-                    "          \"name\": \"uzo_current\",\n" +
+                    "          \"name\": \"current\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Номинальный ток, А\",\n" +
                     "          \"values\": [\n" +
@@ -87,7 +87,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"uzo_voltage\",\n" +
+                    "          \"name\": \"voltage\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Напряжение, В\",\n" +
                     "          \"values\": [\n" +
@@ -102,7 +102,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"uzo_mnf\",\n" +
+                    "          \"name\": \"mnf\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Производитель\",\n" +
                     "          \"values\": [\n" +
@@ -117,22 +117,22 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"uzo_series\",\n" +
+                    "          \"name\": \"series\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Серия\",\n" +
                     "          \"values\": [\n" +
                     "             {\n" +
-                    "                \"name\": \"ВД1-63\",\n" +
-                    "                \"value\": 0\n" +
+                    "                \"name\": \"ВД1-63 (MDV10)\",\n" +
+                    "                \"value\": \"ВД1-63 (MDV10)\"\n" +
                     "             },\n" +
                     "             {\n" +
-                    "                \"name\": \"BasicM\",\n" +
-                    "                \"value\": 1\n" +
+                    "                \"name\": \"BasicM (Квартирный\",\n" +
+                    "                \"value\": \"BasicM (Квартирный\"\n" +
                     "             }\n" +
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"uzo_amount\",\n" +
+                    "          \"name\": \"amount\",\n" +
                     "          \"type\": \"fieldInput\",\n" +
                     "          \"title\": \"Количество\",\n" +
                     "          \"value\": \"\"\n" +
@@ -145,7 +145,7 @@ public class formDataAsmbl3 {
 
             list = "[\n" +
                     "       {\n" +
-                    "          \"name\": \"difcb_current\",\n" +
+                    "          \"name\": \"current\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Номинальный ток, А\",\n" +
                     "          \"values\": [\n" +
@@ -161,7 +161,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"difcb_voltage\",\n" +
+                    "          \"name\": \"voltage\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Напряжение, В\",\n" +
                     "          \"values\": [\n" +
@@ -176,7 +176,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"difcb_mnf\",\n" +
+                    "          \"name\": \"mnf\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Производитель\",\n" +
                     "          \"values\": [\n" +
@@ -191,22 +191,22 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"difcb_series\",\n" +
+                    "          \"name\": \"series\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Серия\",\n" +
                     "          \"values\": [\n" +
                     "             {\n" +
-                    "                \"name\": \"АД12\",\n" +
-                    "                \"value\": 0\n" +
+                    "                \"name\": \"АД 12 (MAD10)\",\n" +
+                    "                \"value\": \"АД 12 (MAD10)\"\n" +
                     "             },\n" +
                     "             {\n" +
-                    "                \"name\": \"BasicM\",\n" +
-                    "                \"value\": 1\n" +
+                    "                \"name\": \"DSH941R\",\n" +
+                    "                \"value\": \"DSH941R\"\n" +
                     "             }\n" +
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"difcb_amount\",\n" +
+                    "          \"name\": \"amount\",\n" +
                     "          \"type\": \"fieldInput\",\n" +
                     "          \"title\": \"Количество\",\n" +
                     "          \"value\": \"\"\n" +
@@ -219,7 +219,7 @@ public class formDataAsmbl3 {
 
             list = "[\n" +
                     "       {\n" +
-                    "          \"name\": \"pmeter_voltage\",\n" +
+                    "          \"name\": \"voltage\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Напряжение\",\n" +
                     "          \"values\": [\n" +
@@ -234,7 +234,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"pmeter_mnf\",\n" +
+                    "          \"name\": \"mnf\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Производитель\",\n" +
                     "          \"values\": [\n" +
@@ -253,7 +253,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"pmeter_tarif\",\n" +
+                    "          \"name\": \"tariff\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Тариф\",\n" +
                     "          \"values\": [\n" +
@@ -268,7 +268,7 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"pmeter_amount\",\n" +
+                    "          \"name\": \"amount\",\n" +
                     "          \"type\": \"fieldInput\",\n" +
                     "          \"title\": \"Количество\",\n" +
                     "          \"value\": \"\"\n" +
@@ -276,7 +276,7 @@ public class formDataAsmbl3 {
                     "    ]";
 
         }
-        else if (eq_type == 5){
+        /*else if (eq_type == 5){
 
             list = "[\n" +
                     "       {\n" +
@@ -300,7 +300,7 @@ public class formDataAsmbl3 {
                     "       }\n" +
                     "    ]";
 
-        }
+        }*/
 
         return list;
 
@@ -311,3 +311,4 @@ public class formDataAsmbl3 {
 
 
 }
+

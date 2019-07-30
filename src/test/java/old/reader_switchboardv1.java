@@ -3,7 +3,6 @@ package old;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import tech.equipment.asmbls.typicalSb;
 import tech.equipment.details.circuitbreaker;
 import tech.equipment.details.enclosure;
 import tech.maths.calcswitchboard;

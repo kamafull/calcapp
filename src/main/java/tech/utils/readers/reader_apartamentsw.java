@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import tech.equipment.asmbls.apartAsmbl3;
 import tech.equipment.details.circuitbreaker;
 import tech.maths.calcswitchboard;
-import old.createspecs.specApartamentsw;
+//import old.createspecs.specApartamentsw;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -34,10 +34,14 @@ public class reader_apartamentsw {
 
         json_save = jsongen.toString();
         JSONObject json = jsongen.getJSONObject("insw");
-        listEq_1 = new listEq(json.getJSONArray("lisq_eq"));
+        JSONArray jj;
+        jj = json.getJSONArray("list_eq");
+        System.out.println(jj.toString());
+        listEq_1 = new listEq(jj);
         ecs_apart = json.getInt("ecs_apart");
         json = jsongen.getJSONObject("outsw");
-        listEq_2 = new listEq(json.getJSONArray("lisq_eq"));
+        jj = json.getJSONArray("list_eq");
+        listEq_2 = new listEq(jj);
 
 
         apartAsmbl3 apsw = new apartAsmbl3( type, id_user,  name, json_save, ecs_apart, listEq_1, listEq_2 );
@@ -53,8 +57,8 @@ public class reader_apartamentsw {
         JSONArray alarms = new JSONArray();
         for (String s : apsw.createalalarms()) alarms.put(s);
         jsonoutsw.put("alarms", alarms);
-        specApartamentsw specApsw = new specApartamentsw();
-        specApsw.createspec(apsw);
+        //specApartamentsw specApsw = new specApartamentsw();
+        //specApsw.createspec(apsw);
 
 
         return jsonoutsw.toString();
