@@ -12,11 +12,11 @@ public class circuitbreaker {
     private String series;
     private int serias_type;
     private int poles;
-    private int breaking_capacity;
+    private String breaking_capacity;
     private String breaking_capacity_code;
     private int amount = 1;
 
-    public circuitbreaker(int current, int voltage, int manufacturer, int poles, String series, int breaking_capacity, String breaking_capacity_code, int amount) {
+    public circuitbreaker(int current, int voltage, int manufacturer, int poles, String series, String breaking_capacity, String breaking_capacity_code, int amount) {
         this.current = current;
         this.voltage = voltage;
         this.manufacturer = manufacturer;

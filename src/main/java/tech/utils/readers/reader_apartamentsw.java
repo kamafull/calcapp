@@ -37,11 +37,11 @@ public class reader_apartamentsw {
         JSONArray jj;
         jj = json.getJSONArray("list_eq");
         System.out.println(jj.toString());
-        listEq_1 = new listEq(jj);
+        listEq_1 = new listEq(jj,3);
         ecs_apart = json.getInt("ecs_apart");
         json = jsongen.getJSONObject("outsw");
         jj = json.getJSONArray("list_eq");
-        listEq_2 = new listEq(jj);
+        listEq_2 = new listEq(jj,3);
 
 
         apartAsmbl3 apsw = new apartAsmbl3( type, id_user,  name, json_save, ecs_apart, listEq_1, listEq_2 );

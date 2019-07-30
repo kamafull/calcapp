@@ -276,7 +276,7 @@ public class formDataAsmbl3 {
                     "    ]";
 
         }
-        /*else if (eq_type == 5){
+        else if (eq_type == 5){
 
             list = "[\n" +
                     "       {\n" +
@@ -300,7 +300,7 @@ public class formDataAsmbl3 {
                     "       }\n" +
                     "    ]";
 
-        }*/
+        }
 
         return list;
 

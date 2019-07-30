@@ -7,41 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfac5c28-2666-4cd7-9223-f757a42b3408.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfac5c28-2666-4cd7-9223-f757a42b3408.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/EqController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/EqController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/circuitbreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/circuitbreaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/powermeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/powermeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/calcswitchboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/calcswitchboard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/pricing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/mnfback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/mnfback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/EqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/EqController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/circuitbreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/circuitbreaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/rcbo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/rcbo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/rcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/rcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/listEq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/old/reader_switchboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/old/reader_switchboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/old/reader_switchboardv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/old/reader_switchboardv1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/calcapp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/EqController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/EqController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartSb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/generalSb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/typicalSb.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/circuitbreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/circuitbreaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/powermeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/powermeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/calcswitchboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/maths/calcswitchboard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/maths/pricing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/createspecs/specApartamentsw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/createspecs/specSwitchboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/createspecs/specSwitchboardv1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/mnfback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/mnfback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_switchboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_switchboardv1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/calcapp.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +385,6 @@
       <workItem from="1564303656920" duration="4032000" />
       <workItem from="1564384907300" duration="6841000" />
       <workItem from="1564463710953" duration="9910000" />
-      <workItem from="1564489173065" duration="7475000" />
     </task>
     <servers />
   </component>
@@ -439,6 +420,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/net/proselyte/jwtappdemo/rest/AuthenticationRestControllerV1.java</url>
           <line>41</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rest/rest/EqController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

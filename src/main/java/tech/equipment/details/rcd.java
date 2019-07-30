@@ -13,11 +13,11 @@ public class rcd {
     private String series;
     private int serias_type;
     private int poles;
-    private int breaking_capacity;
+    private String breaking_capacity;
     private String breaking_capacity_code;
     private int amount = 1;
 
-    public rcd(int current, int residual_current, int voltage, int manufacturer, String series, int poles, int breaking_capacity, String breaking_capacity_code, int amount) {
+    public rcd(int current, int residual_current, int voltage, int manufacturer, String series, int poles, String breaking_capacity, String breaking_capacity_code, int amount) {
         this.current = current;
         this.residual_current = residual_current;
         this.voltage = voltage;
