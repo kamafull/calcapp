@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: CalcApp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Глеб
+Implementation-Vendor-Id: tech.aspr
+Created-By: IntelliJ IDEA
+Build-Jdk: 9
+Main-Class: ${start-class}
+
