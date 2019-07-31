@@ -10,7 +10,7 @@ public class calcswitchboard {
 
     public int price(apartAsmbl3 asmbl) throws SQLException{
         int price = 0;
-        price = pr.price(asmbl.getListEq_1(),3 ) + pr.price(asmbl.getListEq_2(), 3) + pr.price(asmbl.getEcs_apart()) + 1100;
+        price = pr.price(asmbl.getListEq_1(),3 ) + pr.price(asmbl.getListEq_2(), 3) + 1100;
         return price;
     }
 

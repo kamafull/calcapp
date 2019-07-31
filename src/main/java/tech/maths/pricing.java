@@ -66,15 +66,8 @@ public class pricing {
             ex.printStackTrace();
         }
 
-
-
-        return price;
-    }
-
-    public int price (int ecs) throws SQLException{
-        int price = 0;
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
-            String sql = "SELECT * FROM circuit_breakers.asmbl3_ecs WHERE id = " + ecs +  ";";
+            String sql = "SELECT * FROM circuit_breakers.asmbl3_ecs WHERE id = " + list.getEcs_apart() +  ";";
             ResultSet rs = stat.executeQuery(sql);
             if (rs.next()) {
                 price += rs.getInt("price");
@@ -83,8 +76,11 @@ public class pricing {
             ex.printStackTrace();
         }
 
-            return price;
+
+
+        return price;
     }
+
 
     public int price (circuitbreaker cb) throws SQLException{
         int price = 0;

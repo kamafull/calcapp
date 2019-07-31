@@ -17,6 +17,7 @@ public class listEq {
     ArrayList<rcd> listRcd = new ArrayList<>();
     ArrayList<rcbo> listRcbo = new ArrayList<>();
     ArrayList<powermeter> listPmeter = new ArrayList<>();
+    int ecs_apart;
     JSONObject a;
 
     public listEq(JSONArray list_eq, int type_asmbl) {
@@ -51,6 +52,10 @@ public class listEq {
                 if (a.getInt("eq_type") == 4) {
                     listPmeter.add(new powermeter(a.getInt("mnf"), a.getInt("voltage"), 60, a.getInt("tariff"), a.getInt("amount")));
                 }
+
+                if (a.getInt("eq_type") == 5) {
+                    ecs_apart = a.getInt("ecs_apart");
+                     }
 
             }
 

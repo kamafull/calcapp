@@ -18,7 +18,7 @@ public class reader_apartamentsw {
     private int id_user;
     private String name;
     private String json_save;
-    private int ecs_apart;
+    //private int ecs_apart;
     private listEq listEq_1;
     private listEq listEq_2;
 
@@ -38,13 +38,13 @@ public class reader_apartamentsw {
         jj = json.getJSONArray("list_eq");
         System.out.println(jj.toString());
         listEq_1 = new listEq(jj,3);
-        ecs_apart = json.getInt("ecs_apart");
+        //ecs_apart = json.getInt("ecs_apart");
         json = jsongen.getJSONObject("outsw");
         jj = json.getJSONArray("list_eq");
         listEq_2 = new listEq(jj,3);
 
 
-        apartAsmbl3 apsw = new apartAsmbl3( type, id_user,  name, json_save, ecs_apart, listEq_1, listEq_2 );
+        apartAsmbl3 apsw = new apartAsmbl3( type, id_user,  name, json_save, listEq_1, listEq_2 );
 
         if (id == -1) apsw.newidorder();
         else apsw.setIdorder(id);

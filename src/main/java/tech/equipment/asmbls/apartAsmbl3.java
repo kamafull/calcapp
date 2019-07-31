@@ -23,7 +23,7 @@ public class apartAsmbl3 {
     private int id_user;
     private String name;
     private String json_string;
-    private int ecs_apart;
+    //private int ecs_apart;
     private listEq listEq_1;
     private listEq listEq_2;
     private ArrayList<String> alarms;
@@ -33,13 +33,13 @@ public class apartAsmbl3 {
     }
 
 
-    public apartAsmbl3(int type, int id_user, String name, String json_string, int ecs_apart, listEq listeq_1, listEq listEq_2) {
+    public apartAsmbl3(int type, int id_user, String name, String json_string, listEq listeq_1, listEq listEq_2) {
 
         this.type = type;
         this.id_user = id_user;
         this.name = name;
         this.json_string = json_string;
-        this.ecs_apart = ecs_apart;
+        //this.ecs_apart = ecs_apart;
         this.listEq_1 = listeq_1;
         this.listEq_2 = listEq_2;
 

@@ -126,8 +126,8 @@ public class formDataAsmbl3 {
                     "                \"value\": \"ВД1-63 (MDV10)\"\n" +
                     "             },\n" +
                     "             {\n" +
-                    "                \"name\": \"BasicM (Квартирный\",\n" +
-                    "                \"value\": \"BasicM (Квартирный\"\n" +
+                    "                \"name\": \"BasicM (Квартирный)\",\n" +
+                    "                \"value\": \"BasicM (Квартирный)\"\n" +
                     "             }\n" +
                     "          ]\n" +
                     "       },\n" +
