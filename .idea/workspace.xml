@@ -6,24 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/calcswitchboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/calcswitchboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/pricing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/calcswitchboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/calcswitchboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/listEq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/calcswitchboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/maths/calcswitchboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/maths/pricing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-    </list>
+    <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,6 +369,14 @@
       <workItem from="1564463710953" duration="9910000" />
       <workItem from="1564489173065" duration="7475000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1564580843523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564580843523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -412,6 +403,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
