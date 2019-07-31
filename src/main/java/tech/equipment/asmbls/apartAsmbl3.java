@@ -2,7 +2,7 @@ package tech.equipment.asmbls;
 
 import lombok.Data;
 import tech.equipment.details.circuitbreaker;
-import tech.maths.pricing;
+import tech.maths.asmbl3.pricing;
 import tech.utils.other.mnfBack;
 import tech.utils.readers.listEq;
 
@@ -39,7 +39,6 @@ public class apartAsmbl3 {
         this.id_user = id_user;
         this.name = name;
         this.json_string = json_string;
-        //this.ecs_apart = ecs_apart;
         this.listEq_1 = listeq_1;
         this.listEq_2 = listEq_2;
 
@@ -55,7 +54,6 @@ public class apartAsmbl3 {
             if (rs.next()) {
                 sql = "update circuit_breakers.saves_cabinets SET save_json = '" + json_string  +  "' WHERE id = " + idorder + ";";
                 stat.execute(sql);
-
             }
             else {
                 sql = "INSERT INTO circuit_breakers.saves_cabinets (id_user, id, name, type, save_json) VALUES (" + id_user + ", " + idorder + ", '" + name + "', " + type + ", '" + json_string + "');";

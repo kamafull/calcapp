@@ -7,7 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/docs/specAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/META-INF/calcapp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/META-INF/calcapp.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/calcswitchboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/pricing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/calcswitchboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/pricing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/calcswitchboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/pricing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,11 +125,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1OdL6ifkzatginvf0z1aMECx1lN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -378,21 +396,7 @@
       <option name="project" value="LOCAL" />
       <updated>1564580843523</updated>
     </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1564581452796</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564581452796</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test">
-      <created>1564582206983</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1564582206983</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">

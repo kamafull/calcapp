@@ -1,4 +1,4 @@
-package tech.maths;
+package tech.maths.asmbl3;
 
 import tech.equipment.details.*;
 import tech.utils.readers.listEq;
@@ -12,18 +12,19 @@ public class pricing {
     String user = "root";
     String password = "1234";
 
-    public int price (listEq list, int asmbl_type){
+    public int price (listEq list){
         int price = 0;
         String bd_pmeter = "";
 
-        if (asmbl_type == 3) bd_pmeter = "asmbl3_pmeters";
+        bd_pmeter = "asmbl3_pmeters";
 
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
         for (circuitbreaker cb : list.getListCb()){
-                    String sql = "SELECT * FROM circuit_breakers.circuit_breakers WHERE current = " + cb.getCurrent() + " and voltage = " + cb.getVoltage() + " and mnf =" + cb.getManufacturer() + ";";
+                    String sql = "SELECT * FROM circuit_breakers.circuit_breakers WHERE current = " + cb.getCurrent() + " and voltage = " + cb.getVoltage() + " and mnf =" + cb.getManufacturer() + " and series ='" + cb.getSeries() + "' and poles =" + cb.getPoles() + " and bct ='" + cb.getBreaking_capacity_code()  + "';";
                     ResultSet rs = stat.executeQuery(sql);
                     if (rs.next()) {
                         price += rs.getInt("price")*cb.getAmount();
+                        System.out.println(rs.getString("description"));
                     }
                 }
             } catch (SQLException ex) {
@@ -36,6 +37,7 @@ public class pricing {
                 ResultSet rs = stat.executeQuery(sql);
                 if (rs.next()) {
                     price += rs.getInt("price")*pm.getAmount();
+                    System.out.println(rs.getString("description"));
                 }
             }
         } catch (SQLException ex) {
@@ -48,6 +50,7 @@ public class pricing {
                 ResultSet rs = stat.executeQuery(sql);
                 if (rs.next()) {
                     price += rs.getInt("price")*rcd.getAmount();
+                    System.out.println(rs.getString("description"));
                 }
             }
         } catch (SQLException ex) {
@@ -60,6 +63,7 @@ public class pricing {
                 ResultSet rs = stat.executeQuery(sql);
                 if (rs.next()) {
                     price += rs.getInt("price")*rcbo.getAmount();
+                    System.out.println(rs.getString("description"));
                 }
             }
         } catch (SQLException ex) {
@@ -71,13 +75,14 @@ public class pricing {
             ResultSet rs = stat.executeQuery(sql);
             if (rs.next()) {
                 price += rs.getInt("price");
+                System.out.println(rs.getString("description"));
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
 
 
-        ..ч
+
         return price;
     }
 

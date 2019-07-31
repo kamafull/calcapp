@@ -3,9 +3,10 @@ package tech.utils.readers;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import tech.docs.specAsmbl3;
 import tech.equipment.asmbls.apartAsmbl3;
 import tech.equipment.details.circuitbreaker;
-import tech.maths.calcswitchboard;
+import tech.maths.asmbl3.calcAsmbl;
 //import old.createspecs.specApartamentsw;
 
 import java.sql.SQLException;
@@ -52,11 +53,13 @@ public class reader_apartamentsw {
 
         JSONObject jsonoutsw = new JSONObject();
         jsonoutsw.put("id", apsw.getIdorder());
-        jsonoutsw.put("price", new calcswitchboard().price(apsw));
+        jsonoutsw.put("price", new calcAsmbl().price(apsw));
         //добавление алармов
         JSONArray alarms = new JSONArray();
         for (String s : apsw.createalalarms()) alarms.put(s);
         jsonoutsw.put("alarms", alarms);
+        specAsmbl3 specAsmbl3 = new specAsmbl3();
+        specAsmbl3.createspec(apsw);
         //specApartamentsw specApsw = new specApartamentsw();
         //specApsw.createspec(apsw);
 
