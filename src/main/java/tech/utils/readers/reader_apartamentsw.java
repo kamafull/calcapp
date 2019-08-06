@@ -3,7 +3,8 @@ package tech.utils.readers;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import tech.docs.specAsmbl3;
+import tech.docs.offers.offer;
+import tech.docs.specifications.specAsmbl3;
 import tech.equipment.asmbls.apartAsmbl3;
 import tech.equipment.details.circuitbreaker;
 import tech.maths.asmbl3.calcAsmbl;
@@ -22,9 +23,11 @@ public class reader_apartamentsw {
     //private int ecs_apart;
     private listEq listEq_1;
     private listEq listEq_2;
+    private calcAsmbl calcAsmbl;
+    private int price;
 
 
-    public String result(String data) throws JSONException, SQLException {
+    public String result(String data) throws Exception {
         ArrayList<circuitbreaker> list_outcb = new ArrayList<>() ;
         JSONObject jsongen11 = new JSONObject(data);
         int id = jsongen11.getInt("id");
@@ -49,11 +52,12 @@ public class reader_apartamentsw {
 
         if (id == -1) apsw.newidorder();
         else apsw.setIdorder(id);
-        apsw.saveCabineToBD();
+        price = calcAsmbl.price(apsw);
+        apsw.saveCabineToBD(price);
 
         JSONObject jsonoutsw = new JSONObject();
         jsonoutsw.put("id", apsw.getIdorder());
-        jsonoutsw.put("price", new calcAsmbl().price(apsw));
+        jsonoutsw.put("price", price);
         //добавление алармов
         JSONArray alarms = new JSONArray();
         for (String s : apsw.createalalarms()) alarms.put(s);

@@ -9,7 +9,7 @@ import java.sql.SQLException;
 @RestController
 @CrossOrigin(origins = "http://localhost:8080", maxAge = 3600)
 @RequestMapping(value = "/front/")
-public class frontController {
+public class FrontDataControllerV1 {
 
     formDataAsmbl3 formData = new formDataAsmbl3();
 

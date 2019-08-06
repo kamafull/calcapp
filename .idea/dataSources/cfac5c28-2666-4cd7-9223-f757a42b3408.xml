@@ -1657,108 +1657,113 @@
       <DataType>varchar(7000)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="389" parent="287" name="user_id">
+    <column id="389" parent="286" name="price">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="287" name="user_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="390" parent="287" name="role_id">
+    <column id="391" parent="287" name="role_id">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="391" parent="287" name="fk_user_roles_user">
+    <index id="392" parent="287" name="fk_user_roles_user">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="392" parent="287" name="fk_user_roles_roles">
+    <index id="393" parent="287" name="fk_user_roles_roles">
       <ColNames>role_id</ColNames>
       <Type>btree</Type>
     </index>
-    <foreign-key id="393" parent="287" name="fk_user_roles_user">
+    <foreign-key id="394" parent="287" name="fk_user_roles_user">
       <ColNames>user_id</ColNames>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="394" parent="287" name="fk_user_roles_roles">
+    <foreign-key id="395" parent="287" name="fk_user_roles_roles">
       <ColNames>role_id</ColNames>
       <RefTableName>roles</RefTableName>
       <RefColNames>id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="395" parent="288" name="id">
+    <column id="396" parent="288" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="396" parent="288" name="username">
+    <column id="397" parent="288" name="username">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="397" parent="288" name="email">
+    <column id="398" parent="288" name="email">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="398" parent="288" name="first_name">
+    <column id="399" parent="288" name="first_name">
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="399" parent="288" name="last_name">
+    <column id="400" parent="288" name="last_name">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="400" parent="288" name="password">
+    <column id="401" parent="288" name="password">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="401" parent="288" name="created">
+    <column id="402" parent="288" name="created">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="402" parent="288" name="updated">
+    <column id="403" parent="288" name="updated">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="403" parent="288" name="status">
+    <column id="404" parent="288" name="status">
       <Position>9</Position>
       <DataType>varchar(25)|0s</DataType>
       <DefaultExpression>&apos;ACTIVE&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="404" parent="288" name="username">
+    <index id="405" parent="288" name="username">
       <ColNames>username</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="405" parent="288" name="email">
+    <index id="406" parent="288" name="email">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="406" parent="288" name="PRIMARY">
+    <key id="407" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="407" parent="288" name="username">
+    <key id="408" parent="288" name="username">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>
-    <key id="408" parent="288" name="email">
+    <key id="409" parent="288" name="email">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>email</UnderlyingIndexName>
     </key>

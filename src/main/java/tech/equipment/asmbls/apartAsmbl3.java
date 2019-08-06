@@ -46,17 +46,18 @@ public class apartAsmbl3 {
 
 
 
-    public void saveCabineToBD(){
+    public void saveCabineToBD(int price){
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
             String sql;
             sql = "SELECT * from circuit_breakers.saves_cabinets where id = " + idorder + ";";
             ResultSet rs = stat.executeQuery(sql);
             if (rs.next()) {
-                sql = "update circuit_breakers.saves_cabinets SET save_json = '" + json_string  +  "' WHERE id = " + idorder + ";";
+                sql = "update circuit_breakers.saves_cabinets SET save_json = '" + json_string  +  "', price = " + price + " WHERE id = " + idorder + ";";
                 stat.execute(sql);
             }
             else {
-                sql = "INSERT INTO circuit_breakers.saves_cabinets (id_user, id, name, type, save_json) VALUES (" + id_user + ", " + idorder + ", '" + name + "', " + type + ", '" + json_string + "');";
+                sql = "INSERT INTO circuit_breakers.saves_cabinets (id_user, id, name, type, save_json, price) VALUES (" + id_user + ", " + idorder + ", '" + name + "', " + type + ", '" + json_string + "'," + price+ ");";
+
                 stat.execute(sql);
             }
         } catch (SQLException e) {
