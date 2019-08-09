@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest/rest/ActionsUsersControllerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfac5c28-2666-4cd7-9223-f757a42b3408.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfac5c28-2666-4cd7-9223-f757a42b3408.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/EqController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/frontController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/specAsmbl3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/EqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/frontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/FrontDataControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/docs/specAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/EqController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/frontController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/docs/specAsmbl3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testmain.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -404,7 +383,8 @@
       <workItem from="1564463710953" duration="9910000" />
       <workItem from="1564489173065" duration="7475000" />
       <workItem from="1564741575036" duration="21644000" />
-      <workItem from="1565117986515" duration="6029000" />
+      <workItem from="1565117986515" duration="6093000" />
+      <workItem from="1565355866079" duration="3266000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -427,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564591572118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1565124263803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565124263803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -473,100 +460,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.46369427" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="artifact" />
-              <type id="jpa-descriptors" />
-              <type id="javaee-facet-resources" />
-              <type id="library" />
-            </show-content>
-          </artifact-editor>
-          <last-edited>calcapp:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19590957" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.31149426" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.46824542" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|calcapp</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.31149426" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>poi-3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.31149426" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="" />
