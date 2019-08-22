@@ -8,6 +8,18 @@
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/offers/offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/offers/offer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/docs/offers/offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/docs/offers/offer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -384,7 +396,11 @@
       <workItem from="1564489173065" duration="7475000" />
       <workItem from="1564741575036" duration="21644000" />
       <workItem from="1565117986515" duration="6093000" />
-      <workItem from="1565355866079" duration="3266000" />
+      <workItem from="1565355866079" duration="3301000" />
+      <workItem from="1565611414994" duration="6843000" />
+      <workItem from="1565681776183" duration="9458000" />
+      <workItem from="1566459471723" duration="612000" />
+      <workItem from="1566460577293" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -414,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565124263803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1565362828491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565362828491</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">

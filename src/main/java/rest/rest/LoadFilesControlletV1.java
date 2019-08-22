@@ -18,7 +18,7 @@ public class LoadFilesControlletV1 {
     offer offer = new offer();
 
     //скачать спецификацию
-    @RequestMapping(value = "math/loadspec", method = RequestMethod.GET/*, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE*/)
+    @RequestMapping(value = "/download/specification", method = RequestMethod.GET/*, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE*/)
     public void loadspec (@RequestParam(name = "id") String fileName1, HttpServletResponse response) throws IOException {
         String fileName = "aspr.tech specification id#" + fileName1 + ".xls";
         Path file = Paths.get(filePath, fileName);
@@ -37,8 +37,7 @@ public class LoadFilesControlletV1 {
     }
 
     //скачать ТКП
-
-    @RequestMapping(value = "math/loadoffer", method = RequestMethod.GET/*, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE*/)
+    @RequestMapping(value = "/download/offer", method = RequestMethod.GET/*, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE*/)
     public void loadoffer (@RequestBody String data, HttpServletResponse response) throws Exception {
         offer.create(data);
         String fileName = "aspr.tech offer id#" + offer.getId() + ".xls";

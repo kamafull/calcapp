@@ -15,7 +15,6 @@ import java.util.ArrayList;
 
 public class reader_apartamentsw {
 
-
     private int type;
     private int id_user;
     private String name;
@@ -23,11 +22,12 @@ public class reader_apartamentsw {
     //private int ecs_apart;
     private listEq listEq_1;
     private listEq listEq_2;
-    private calcAsmbl calcAsmbl;
+    private  calcAsmbl calcAsmbl = new calcAsmbl();
     private int price;
 
 
     public String result(String data) throws Exception {
+
         ArrayList<circuitbreaker> list_outcb = new ArrayList<>() ;
         JSONObject jsongen11 = new JSONObject(data);
         int id = jsongen11.getInt("id");
@@ -54,7 +54,6 @@ public class reader_apartamentsw {
         else apsw.setIdorder(id);
         price = calcAsmbl.price(apsw);
         apsw.saveCabineToBD(price);
-
         JSONObject jsonoutsw = new JSONObject();
         jsonoutsw.put("id", apsw.getIdorder());
         jsonoutsw.put("price", price);
@@ -62,8 +61,11 @@ public class reader_apartamentsw {
         JSONArray alarms = new JSONArray();
         for (String s : apsw.createalalarms()) alarms.put(s);
         jsonoutsw.put("alarms", alarms);
+        //создание спецификации
         specAsmbl3 specAsmbl3 = new specAsmbl3();
         specAsmbl3.createspec(apsw);
+        //созданиие ткп
+
         //specApartamentsw specApsw = new specApartamentsw();
         //specApsw.createspec(apsw);
 
