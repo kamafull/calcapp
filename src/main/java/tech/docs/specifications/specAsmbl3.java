@@ -1,5 +1,6 @@
 package tech.docs.specifications;
 
+import lombok.Data;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.CellStyle;
@@ -15,11 +16,11 @@ import tech.utils.other.mnfBack;
 
 import java.io.FileOutputStream;
 import java.sql.*;
-
+@Data
 public class specAsmbl3 {
 
     HSSFWorkbook result;
-
+    int id;
     String url = "jdbc:mysql://localhost:3306/circuit_breakers?verifyServerCertificate=false&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     String user = "root";
     String password = "1234";
@@ -39,16 +40,13 @@ public class specAsmbl3 {
         row.createCell(4).setCellValue("Количество");
         row.createCell(5).setCellValue("Цена, за шт. с НДС");
         row.createCell(6).setCellValue("Ссылка на товар");
-       //row.setRowStyle(style);
 
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
             String buff = "";
             //заполняем колонки вводных автоматов
             int i = 1;
             row = sheet.createRow(i);
-            //i++;
             row.createCell(0).setCellValue("РАЗДЕЛ 1. ВВОДНЫЕ АППАРАТЫ");
-            //row = sheet.createRow(i);
             i++;
             for (circuitbreaker cb : sw.getListEq_1().getListCb()) {
                 row = sheet.createRow(i);
@@ -65,7 +63,6 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                 }
 
 
@@ -85,7 +82,6 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                 }
             }
 
@@ -104,7 +100,6 @@ public class specAsmbl3 {
                         row.createCell(6).setCellValue("aspr.tech");
                     } else {
                         row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                        //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                     }
 
             }
@@ -124,7 +119,6 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                 }
 
             }
@@ -148,7 +142,6 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                 }
 
 
@@ -168,7 +161,6 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                 }
             }
 
@@ -187,7 +179,7 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
+
                 }
 
             }
@@ -207,7 +199,6 @@ public class specAsmbl3 {
                     row.createCell(6).setCellValue("aspr.tech");
                 } else {
                     row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                    //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
                 }
 
             }
@@ -230,7 +221,6 @@ public class specAsmbl3 {
                 row.createCell(6).setCellValue("aspr.tech");
             } else {
                 row.createCell(0).setCellValue("ОТСУТСТВУЕТ В БАЗЕ ДАННЫХ");
-                //sw.setAlarms("Корпус не посчитан т.к. не найдет в базе");
             }
 
 
@@ -244,9 +234,11 @@ public class specAsmbl3 {
             FileOutputStream finalFile = new FileOutputStream(s);
             buffbook.write(finalFile);
             finalFile.close();
+            id = sw.getIdorder();
         } catch (Exception e) {
             e.printStackTrace();
         }
+
 
     }
 }

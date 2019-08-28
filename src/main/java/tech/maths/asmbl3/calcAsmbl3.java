@@ -1,12 +1,13 @@
 package tech.maths.asmbl3;
 
 import tech.equipment.asmbls.apartAsmbl3;
+import tech.utils.other.pricingListEq;
 
 import java.sql.SQLException;
 
-public class calcAsmbl {
+public class calcAsmbl3 {
 
-    pricing pr = new pricing();
+    pricingListEq pr = new pricingListEq();
 
     public int price(apartAsmbl3 asmbl) throws SQLException{
         int price = 0;

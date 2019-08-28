@@ -22,11 +22,8 @@ public class getAsmbl {
             ResultSet rs = stat.executeQuery(sql);
             while (rs.next()){
                 a = new JSONObject(rs.getString("save_json"));
-                //System.out.println(a);
                 a.put("id", rs.getInt("id"));
                 array.add(a);
-
-
             }
 
             return array;

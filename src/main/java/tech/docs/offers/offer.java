@@ -6,12 +6,10 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import tech.equipment.asmbls.apartAsmbl3;
-import tech.maths.asmbl3.calcAsmbl;
-import tech.maths.asmbl3.pricing;
+import tech.utils.other.priceforofferbytype;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -36,7 +34,10 @@ public class offer {
     private String name;
     private int amount;
     private Date date = new Date();
-
+    int id_order;
+    int type;
+    String save_json ="";
+    priceforofferbytype priceforofferbytype = new priceforofferbytype();
 
     public void create(String data) throws Exception {
        // System.out.println("1 этап");
@@ -50,12 +51,9 @@ public class offer {
         object = json.getString("object");
         customer = json.getString("customer");
         basis = json.getString("basis");
-        //System.out.println("1.1.1");
         array = json.getJSONArray("array_asmbls");
-        System.out.println("dddd");
         row = sheet.createRow(9);
         row.createCell(2).setCellValue("aspr.tech " + date.toString());
-        //System.out.println("dddddddddddd");
         row = sheet.createRow(11);
         row.createCell(0).setCellValue("Объект:");
         row.createCell(1).setCellValue(object);
@@ -66,32 +64,32 @@ public class offer {
         row.createCell(0).setCellValue("Основание:");
         row.createCell(1).setCellValue(basis);
 
-        //System.out.println("этап 1.1");
         for (int i = 0; i < array.length(); i++) {
-            int id;
+
             json = array.getJSONObject(i);
-            id = json.getInt("idorder");
+            id_order = json.getInt("idorder");
             try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
-                String sql = "SELECT * FROM circuit_breakers.saves_cabinets WHERE id = " + id + ";";
+                String sql = "SELECT * FROM circuit_breakers.saves_cabinets WHERE id = " + id_order + ";";
                 ResultSet rs = stat.executeQuery(sql);
                 if (rs.next()) {
-                    price = rs.getInt("price");
+                    type = rs.getInt("type");
                     name = rs.getString("name");
+                    save_json = rs.getString("save_json");
                 }
+                price = priceforofferbytype.price(type, save_json);
                 amount = json.getInt("amount");
                 row = sheet.createRow(16 + i);
                 row.createCell(0).setCellValue(i+1);
-                row.createCell(1).setCellValue(id);
+                row.createCell(1).setCellValue(id_order);
                 row.createCell(2).setCellValue(name);
                 row.createCell(3).setCellValue(amount);
                 row.createCell(4).setCellValue(price);
                 result = amount*price + result;
-                //System.out.println(result);
                 row.createCell(5).setCellValue(amount*price);
             }
             k=k+i;
         }
-
+        k++;
         row = sheet.createRow(15+k+1);
         row.createCell(4).setCellValue("Итого, вкл. НДС 20%");
         row.createCell(5).setCellValue(result);
@@ -110,8 +108,6 @@ public class offer {
         row.createCell(0).setCellValue("Менеджер проекта");
         row.createCell(4).setCellValue("Кравченко А.Ю.");
 
-
-        //System.out.println("2 этап");
         String s = "C:\\test specs\\aspr.tech offer id#" + id + ".xls";
         FileOutputStream finalFile = new FileOutputStream(s);
         buffbook.write(finalFile);

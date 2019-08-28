@@ -2,9 +2,9 @@ package tech.equipment.asmbls;
 
 import lombok.Data;
 import tech.equipment.details.circuitbreaker;
-import tech.maths.asmbl3.pricing;
+import tech.utils.other.pricingListEq;
 import tech.utils.other.mnfBack;
-import tech.utils.readers.listEq;
+import tech.equipment.details.listEq;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -32,20 +32,15 @@ public class apartAsmbl3 {
         this.idorder = new Random().nextInt(99999);
     }
 
-
-    public apartAsmbl3(int type, int id_user, String name, String json_string, listEq listeq_1, listEq listEq_2) {
-
+    public apartAsmbl3(int type, String name, listEq listeq_1, listEq listEq_2) {
         this.type = type;
-        this.id_user = id_user;
         this.name = name;
-        this.json_string = json_string;
         this.listEq_1 = listeq_1;
         this.listEq_2 = listEq_2;
 
     }
 
-
-
+    /*
     public void saveCabineToBD(int price){
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
             String sql;
@@ -65,7 +60,7 @@ public class apartAsmbl3 {
         }
 
     }
-
+    */
     public ArrayList<String> createalalarms () throws SQLException {
         int k = 0;
         int k1 = 0;
@@ -84,7 +79,7 @@ public class apartAsmbl3 {
         }
         else bufalarm.add("Проверка по номиналам пройдена успешно");
         //блок закрыт
-        pricing p = new pricing();
+        pricingListEq p = new pricingListEq();
         mnfBack mb = new mnfBack();
         for (circuitbreaker incb : listEq_1.getListCb()) {
             if (p.price(incb) == 0)

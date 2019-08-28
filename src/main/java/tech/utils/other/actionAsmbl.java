@@ -1,7 +1,7 @@
 package tech.utils.other;
 
-
 import org.json.JSONObject;
+import tech.utils.builders.builderAsmbl3;
 
 import java.sql.*;
 import java.util.Random;
@@ -11,6 +11,7 @@ public class actionAsmbl {
     String url = "jdbc:mysql://localhost:3306/circuit_breakers?verifyServerCertificate=false&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     String user = "root";
     String password = "1234";
+    builderAsmbl3 builderAsmbl3 = new builderAsmbl3();
 
     public void update(String data) throws SQLException {
         JSONObject json = new JSONObject(data);
@@ -22,7 +23,9 @@ public class actionAsmbl {
             stat.execute(sql);
         }
     }
-    public int save(String data) throws SQLException{
+
+
+    public int save(String data) throws Exception {
 
         JSONObject json = new JSONObject(data);
         int id = new Random().nextInt(99999);

@@ -47,21 +47,6 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"series\",\n" +
-                    "          \"type\": \"fieldSelect\",\n" +
-                    "          \"title\": \"Серия\",\n" +
-                    "          \"values\": [\n" +
-                    "             {\n" +
-                    "                \"name\": \"ВА47-29 (MVA20)\",\n" +
-                    "                \"value\": \"ВА47-29 (MVA20)\"\n" +
-                    "             },\n" +
-                    "             {\n" +
-                    "                \"name\": \"BasicM (Квартирный)\",\n" +
-                    "                \"value\": \"BasicM (Квартирный)\"\n" +
-                    "             }\n" +
-                    "          ]\n" +
-                    "       },\n" +
-                    "       {\n" +
                     "          \"name\": \"amount\",\n" +
                     "          \"type\": \"fieldInput\",\n" +
                     "          \"title\": \"Количество\",\n" +

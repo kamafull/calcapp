@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class ActionsUsersControllerV1 {
 
     private tech.utils.other.getAsmbl getAsmbl = new getAsmbl();
-    private actionAsmbl updateAsmbl = new actionAsmbl();
+    private actionAsmbl actionAsmbl = new actionAsmbl();
 
     @RequestMapping(value = "users/getasmbl", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody
@@ -30,21 +30,21 @@ public class ActionsUsersControllerV1 {
     @RequestMapping(value = "users/updasmbl", method = RequestMethod.POST, consumes = MediaType.TEXT_PLAIN_VALUE)
     public String updateAsmbl(@RequestBody String data) throws SQLException {
         System.out.println(data);
-        updateAsmbl.update(data);;
+        actionAsmbl.update(data);;
         return "updated";
     }
 
     @RequestMapping(value = "users/saveasmbl", method = RequestMethod.POST, consumes = MediaType.TEXT_PLAIN_VALUE)
-    public int saveAsmbl(@RequestBody String data) throws SQLException {
+    public int saveAsmbl(@RequestBody String data) throws Exception {
         System.out.println(data);
-        int id = updateAsmbl.save(data);
+        int id = actionAsmbl.save(data);
         return id;
     }
 
     @RequestMapping(value = "users/delasmbl", method = RequestMethod.POST/*, consumes = MediaType.TEXT_PLAIN_VALUE*/)
     public String deleteAsmbl(@RequestParam (name = "id") String id) throws SQLException {
         System.out.println(id);
-        updateAsmbl.delete(Integer.parseInt(id));
+        actionAsmbl.delete(Integer.parseInt(id));
         return "deleted";
     }
 }

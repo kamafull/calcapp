@@ -7,19 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/calcapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfac5c28-2666-4cd7-9223-f757a42b3408.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfac5c28-2666-4cd7-9223-f757a42b3408.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/ActionsUsersControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/ActionsUsersControllerV1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/offers/offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/offers/offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/specifications/specAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/specifications/specAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/asmbl3/calcAsmbl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/asmbl3/pricing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/actionAsmbl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/actionAsmbl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/getAsmbl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/getAsmbl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/listEq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/ActionsUsersControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/ActionsUsersControllerV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/actionAsmbl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/actionAsmbl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/getAsmbl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/getAsmbl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/readers/reader_apartamentsw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/ActionsUsersControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/ActionsUsersControllerV1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/docs/offers/offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/docs/offers/offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/docs/specifications/specAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/docs/specifications/specAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/asmbl3/calcAsmbl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/asmbl3/pricing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/actionAsmbl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/actionAsmbl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/getAsmbl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/getAsmbl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/listEq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/readers/reader_apartamentsw.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,18 +109,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>jso</find>
-      <find>class</find>
-      <find>com.mysql.jdbc.Driver</find>
-      <find>/jsonexchange</find>
-      <find>json</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\Глеб\IdeaProjects\calcapp\src\main</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
@@ -153,24 +173,24 @@
     <property name="sql.rename.search.for.storage.occurrences" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\resources" />
-      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java" />
-      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java\security" />
-      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\web\pages" />
-      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\test\fromYoutube" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="old" />
       <recent name="" />
       <recent name="tech" />
       <recent name="tech.equipment.details" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java\net\proselyte\jwtappdemo\security" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="security" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java\net\proselyte\jwtappdemo\security" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\resources" />
+      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java" />
+      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java\security" />
+      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\web\pages" />
+      <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\test\fromYoutube" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,6 +334,21 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7e0f74f0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -401,6 +436,14 @@
       <workItem from="1565681776183" duration="9458000" />
       <workItem from="1566459471723" duration="612000" />
       <workItem from="1566460577293" duration="1768000" />
+      <workItem from="1566537155343" duration="5523000" />
+      <workItem from="1566741709546" duration="1906000" />
+      <workItem from="1566800158560" duration="5322000" />
+      <workItem from="1566839871430" duration="4422000" />
+      <workItem from="1566852296839" duration="6151000" />
+      <workItem from="1566883587843" duration="7743000" />
+      <workItem from="1566893531282" duration="5378000" />
+      <workItem from="1566999480295" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
