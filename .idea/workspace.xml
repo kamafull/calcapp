@@ -7,7 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/FrontDataControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/FrontDataControllerV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/FrontDataControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/FrontDataControllerV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/FrontDataControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/FrontDataControllerV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +110,7 @@
   <component name="ProjectId" id="1OdL6ifkzatginvf0z1aMECx1lN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -401,7 +412,7 @@
       <workItem from="1566893531282" duration="5378000" />
       <workItem from="1566999480295" duration="650000" />
       <workItem from="1567056475380" duration="8139000" />
-      <workItem from="1567096728425" duration="933000" />
+      <workItem from="1567096728425" duration="13408000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -445,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567003878868</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1567097684509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567097684509</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">

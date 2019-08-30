@@ -204,6 +204,27 @@ public class formDataAsmbl3 {
 
             list = "[\n" +
                     "       {\n" +
+                    "          \"name\": \"regular\",\n" +
+                    "          \"type\": \"fieldSelect\",\n" +
+                    "          \"title\": \"Список основных счетчиков\",\n" +
+                    "          \"values\": [\n" +
+                    "             {\n" +
+                    "                \"name\": \"Меркурий версия 1\",\n" +
+                    "                \"value\": 1\n" +
+                    "             },\n" +
+                    "             {\n" +
+                    "                \"name\": \"Меркурий версия 2\",\n" +
+                    "                \"value\": 2\n" +
+                    "             }\n" +
+                    "          ]\n" +
+                    "       },\n" +
+                    "        {\n" +
+            "          \"name\": \"amount\",\n" +
+                    "          \"type\": \"fieldInput\",\n" +
+                    "          \"title\": \"Количество\",\n" +
+                    "          \"value\": \"\"\n" +
+                    "       },\n" +
+                    "       {\n" +
                     "          \"name\": \"voltage\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Напряжение\",\n" +
@@ -251,12 +272,6 @@ public class formDataAsmbl3 {
                     "                \"value\": 2\n" +
                     "             }\n" +
                     "          ]\n" +
-                    "       },\n" +
-                    "       {\n" +
-                    "          \"name\": \"amount\",\n" +
-                    "          \"type\": \"fieldInput\",\n" +
-                    "          \"title\": \"Количество\",\n" +
-                    "          \"value\": \"\"\n" +
                     "       }\n" +
                     "    ]";
 

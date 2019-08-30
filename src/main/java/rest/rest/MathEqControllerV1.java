@@ -31,6 +31,16 @@ public class MathEqControllerV1 {
 
         return result.toString();
     }
+
+    @RequestMapping(value = "math/vru", method = RequestMethod.POST, consumes = MediaType.TEXT_PLAIN_VALUE)
+    public String createvru (@RequestBody String data) throws Exception {
+        System.out.println(data);
+
+
+        return "прием прием";
+
+    }
+
 }
 
 
