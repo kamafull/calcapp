@@ -3,10 +3,11 @@ package tech.equipment.details;
 import lombok.Data;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import tech.equipment.details.circuitbreaker;
-import tech.equipment.details.powermeter;
-import tech.equipment.details.rcbo;
-import tech.equipment.details.rcd;
+import tech.equipment.details.parts.circuitbreaker;
+import tech.equipment.details.parts.powermeter;
+import tech.equipment.details.parts.rcbo;
+import tech.equipment.details.parts.rcd;
+import tech.equipment.details.parts.body;
 import java.util.ArrayList;
 
 
@@ -17,6 +18,7 @@ public class listEq {
     ArrayList<rcd> listRcd = new ArrayList<>();
     ArrayList<rcbo> listRcbo = new ArrayList<>();
     ArrayList<powermeter> listPmeter = new ArrayList<>();
+    ArrayList<body> listBody = new ArrayList<>();
     int ecs_apart;
     JSONObject a;
     String series = "";
@@ -45,6 +47,11 @@ public class listEq {
                 if (a.getInt("eq_type") == 5) {
                     ecs_apart = a.getInt("ecs_apart");
                      }
+
+
+                if (a.getInt("eq_type") == 10) {
+                    listBody.add(new body(a.getInt("mnf"), a.getString("series"), a.getString("size"), a.getInt("ip"), 0, a.getInt("amount")));
+                }
 
             }
 

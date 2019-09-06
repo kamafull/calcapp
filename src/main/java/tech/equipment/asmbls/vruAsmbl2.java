@@ -2,17 +2,16 @@ package tech.equipment.asmbls;
 
 import lombok.Data;
 import tech.equipment.details.parts.circuitbreaker;
-import tech.utils.other.pricingListEq;
-import tech.utils.other.mnfBack;
 import tech.equipment.details.listEq;
+import tech.utils.other.mnfBack;
+import tech.utils.other.pricingListEq;
 
-import java.sql.*;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Random;
 
 @Data
-public class apartAsmbl3 {
-
+public class vruAsmbl2 {
 
     String url = "jdbc:mysql://localhost:3306/circuit_breakers?verifyServerCertificate=false&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     String user = "root";
@@ -23,20 +22,21 @@ public class apartAsmbl3 {
     private int id_user;
     private String name;
     private String json_string;
-    //private int ecs_apart;
     private listEq listEq_1;
     private listEq listEq_2;
+    private listEq listEq_3;
     private ArrayList<String> alarms;
 
     public void newidorder(){
         this.idorder = new Random().nextInt(99999);
     }
 
-    public apartAsmbl3(int type, String name, listEq listeq_1, listEq listEq_2) {
+    public vruAsmbl2(int type, String name, listEq listeq_1, listEq listEq_2, listEq listEq_3) {
         this.type = type;
         this.name = name;
         this.listEq_1 = listeq_1;
         this.listEq_2 = listEq_2;
+        this.listEq_3 = listEq_3;
 
     }
 
@@ -72,6 +72,5 @@ public class apartAsmbl3 {
         return alarms;
 
     }
-
 
 }

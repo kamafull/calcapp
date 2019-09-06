@@ -1,17 +1,14 @@
 package tech.docs.specifications;
 
 import lombok.Data;
-import org.apache.poi.hssf.usermodel.HSSFCellStyle;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Font;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import tech.equipment.asmbls.apartAsmbl3;
-import tech.equipment.details.circuitbreaker;
-import tech.equipment.details.powermeter;
-import tech.equipment.details.rcbo;
-import tech.equipment.details.rcd;
+import tech.equipment.details.parts.circuitbreaker;
+import tech.equipment.details.parts.powermeter;
+import tech.equipment.details.parts.rcbo;
+import tech.equipment.details.parts.rcd;
 import tech.utils.other.mnfBack;
 
 import java.io.FileOutputStream;

@@ -1,6 +1,5 @@
 package rest.rest;
 
-
 import org.springframework.web.bind.annotation.*;
 import tech.docs.offers.offer;
 import tech.docs.specifications.specAsmbl3;
@@ -40,7 +39,6 @@ public class LoadFilesControlletV1 {
         if (Files.exists(file)){
             response.setHeader("Content-disposition", "attachment;filename=" + fileName);
             response.setContentType("application/vnd.ms-excel");
-
             try {
                 Files.copy(file, response.getOutputStream());
                 response.getOutputStream().flush();

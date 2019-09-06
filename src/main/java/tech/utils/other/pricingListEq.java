@@ -1,7 +1,10 @@
 package tech.utils.other;
 
-import tech.equipment.details.*;
 import tech.equipment.details.listEq;
+import tech.equipment.details.parts.body;
+import tech.equipment.details.parts.circuitbreaker;
+import tech.equipment.details.parts.powermeter;
+
 import java.sql.*;
 
 public class pricingListEq {
@@ -39,7 +42,7 @@ public class pricingListEq {
         }
 
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
-            for (rcd rcd : list.getListRcd()){
+            for (tech.equipment.details.parts.rcd rcd : list.getListRcd()){
                 String sql = "SELECT * FROM circuit_breakers.rcd WHERE current = " + rcd.getCurrent() + " and voltage = " + rcd.getVoltage() + " and mnf =" + rcd.getManufacturer() + " and difcurrent =" + rcd.getResidual_current() +  ";";
                 ResultSet rs = stat.executeQuery(sql);
                 if (rs.next()) {
@@ -51,7 +54,7 @@ public class pricingListEq {
         }
 
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
-            for (rcbo rcbo : list.getListRcbo()){
+            for (tech.equipment.details.parts.rcbo rcbo : list.getListRcbo()){
                 String sql = "SELECT * FROM circuit_breakers.rcbo WHERE current = " + rcbo.getCurrent() + " and voltage = " + rcbo.getVoltage() + " and mnf =" + rcbo.getManufacturer() + " and difcurrent =" + rcbo.getResidual_current() +  ";";
                 ResultSet rs = stat.executeQuery(sql);
                 if (rs.next()) {
@@ -86,6 +89,24 @@ public class pricingListEq {
         catch (SQLException ex) {
             ex.printStackTrace();
         }
+        return price;
+
+    }
+
+    public int price (body body) throws SQLException{
+        int price = 0;
+        /*
+        try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
+            String sql = "SELECT * FROM circuit_breakers.circuit_breakers WHERE current = " + cb.getCurrent() + " and voltage = " + cb.getVoltage() + " and mnf =" + cb.getManufacturer() + ";";
+            ResultSet rs = stat.executeQuery(sql);
+            if (rs.next()) {
+                price += rs.getInt("price");
+            }
+        }
+        catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        */
         return price;
 
     }

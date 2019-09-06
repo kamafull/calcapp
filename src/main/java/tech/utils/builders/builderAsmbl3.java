@@ -4,10 +4,8 @@ import lombok.Data;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import tech.equipment.asmbls.apartAsmbl3;
-import tech.equipment.details.circuitbreaker;
 import tech.equipment.details.listEq;
 
-import java.util.ArrayList;
 
 @Data
 public class builderAsmbl3 {
@@ -19,13 +17,10 @@ public class builderAsmbl3 {
     private String json_save;
     private listEq listEq_1;
     private listEq listEq_2;
-    private int price;
     private apartAsmbl3 apsw;
-    private JSONArray alarms = new JSONArray();
 
     public apartAsmbl3 resultAsmbl(String data) throws Exception {
 
-        ArrayList<circuitbreaker> list_outcb = new ArrayList<>() ;
         JSONObject jsongen11 = new JSONObject(data);
         id = jsongen11.getInt("id");
         id_user = jsongen11.getInt("id_user");

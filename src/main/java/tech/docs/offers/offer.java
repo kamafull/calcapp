@@ -97,11 +97,11 @@ public class offer {
         row.createCell(4).setCellValue("В том числе НДС 20%");
         row.createCell(5).setCellValue((Integer)(result/6));
         row = sheet.createRow(15+k+5);
-        row.createCell(0).setCellValue("Условия доставки – самовывоз");
+        row.createCell(0).setCellValue("Условия доставки – самовывоз.");
         row = sheet.createRow(15+k+7);
         row.createCell(0).setCellValue("Условия оплаты - 100% предоплата.");
         row = sheet.createRow(15+k+9);
-        row.createCell(0).setCellValue("Вы можете скачать спецификацию и пересчитать на любого производителя одним кликом.");
+        row.createCell(0).setCellValue("Вы можете скачать спецификацию и пересчитать на любого производителя одним кликом aspr.tech.");
         row = sheet.createRow(15+k+12);
         row.createCell(0).setCellValue("Подготовил:");
         row = sheet.createRow(15+k+13);

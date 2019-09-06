@@ -1,4 +1,4 @@
-package tech.equipment.details;
+package tech.equipment.details.parts;
 
 import lombok.Data;
 
