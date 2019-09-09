@@ -7,46 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/vruAsmbl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/offers/offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/offers/offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/specifications/specAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/docs/specifications/specAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/circuitbreaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/enclosure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/listEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/listEq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/powermeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/rcbo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/rcd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/builders/builderAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/builders/builderAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/pricingListEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/pricingListEq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/docs/offers/offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/asmbls/apartAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/circuitbreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/circuitbreaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/enclosure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/powermeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/powermeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/rcbo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/rcbo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/rcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/rcd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/docs/offers/offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/docs/offers/offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/docs/specifications/specAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/docs/specifications/specAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/asmbls/apartAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/circuitbreaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/enclosure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/listEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/listEq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/powermeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/rcbo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/rcd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/builders/builderAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/builders/builderAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/pricingListEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/pricingListEq.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -449,6 +410,8 @@
       <workItem from="1567613817938" duration="1790000" />
       <workItem from="1567663814812" duration="5407000" />
       <workItem from="1567692850513" duration="5622000" />
+      <workItem from="1567758467904" duration="2536000" />
+      <workItem from="1568012954146" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -506,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567168442707</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <created>1567758609581</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567758609581</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
