@@ -3,7 +3,7 @@ package tech.utils.other;
 
 import org.json.JSONObject;
 import tech.equipment.asmbls.apartAsmbl3;
-import tech.maths.asmbl3.calcAsmbl3;
+import tech.maths.asmbl3.calcAsmbl;
 import tech.utils.builders.builderAsmbl3;
 
 
@@ -11,7 +11,7 @@ public class priceforofferbytype {
 
     int price = 0;
 
-    calcAsmbl3 calcAsmbl3 = new calcAsmbl3();
+    calcAsmbl calcAsmbl = new calcAsmbl();
     builderAsmbl3 builderAsmlb3 = new builderAsmbl3();
     JSONObject jsongen;
     JSONObject jsonObject = new JSONObject();
@@ -27,7 +27,7 @@ public class priceforofferbytype {
             jsonObject.put("id",-1);
             jsonObject.put("id_user", -1);
             apsw = builderAsmlb3.resultAsmbl(jsonObject.toString());
-            price = calcAsmbl3.price(apsw);
+            price = calcAsmbl.price(apsw);
 
         }
         return price;

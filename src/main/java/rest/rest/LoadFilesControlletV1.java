@@ -1,8 +1,11 @@
 package rest.rest;
 
+import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
 import tech.docs.offers.offer;
+import tech.docs.specifications.specAsmbl2;
 import tech.docs.specifications.specAsmbl3;
+import tech.utils.builders.builderAsmbl2;
 import tech.utils.builders.builderAsmbl3;
 
 import javax.servlet.http.HttpServletResponse;
@@ -18,14 +21,21 @@ public class LoadFilesControlletV1 {
 
     private final String filePath = "C:\\test specs";
     builderAsmbl3 builderAsmbl3 = new builderAsmbl3();
+    builderAsmbl2 builderAsmbl2 = new builderAsmbl2();
     offer offer = new offer();
     specAsmbl3 specAsmbl3 = new specAsmbl3();
+    specAsmbl2 specAsmbl2 = new specAsmbl2();
+    JSONObject json, save;
 
     //создать спецификацию
     @RequestMapping(value = "/create/specification", method = RequestMethod.POST/*, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE*/)
     public int createspec (@RequestBody String data, HttpServletResponse response) throws Exception {
 
-        specAsmbl3.createspec(builderAsmbl3.resultAsmbl(data));
+        json = new JSONObject(data);
+        save = json.getJSONObject("save_json");
+
+        if (save.getInt("type") == 3) specAsmbl3.createspec(builderAsmbl3.resultAsmbl(data));
+        if (save.getInt("type") == 2) specAsmbl2.createspec(builderAsmbl2.resultAsmbl(data));
 
         return specAsmbl3.getId();
     }

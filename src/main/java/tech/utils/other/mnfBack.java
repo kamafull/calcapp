@@ -20,6 +20,9 @@ public class mnfBack {
         else if (id_mnf == 84) mnfname = "Ленэлектро";
         else if (id_mnf == 85) mnfname = "ЛЭМЗ";
         else if (id_mnf == 86) mnfname = "IEK Generica";
+        else if (id_mnf == 87) mnfname = "Chint";
+        else if (id_mnf == 88) mnfname = "Корнеевский завод низковольной аппаратуры";
+
         return mnfname;
     }
 

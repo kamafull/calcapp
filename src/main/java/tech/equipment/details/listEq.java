@@ -3,11 +3,8 @@ package tech.equipment.details;
 import lombok.Data;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import tech.equipment.details.parts.circuitbreaker;
-import tech.equipment.details.parts.powermeter;
-import tech.equipment.details.parts.rcbo;
-import tech.equipment.details.parts.rcd;
-import tech.equipment.details.parts.body;
+import tech.equipment.details.parts.*;
+
 import java.util.ArrayList;
 
 
@@ -19,6 +16,11 @@ public class listEq {
     ArrayList<rcbo> listRcbo = new ArrayList<>();
     ArrayList<powermeter> listPmeter = new ArrayList<>();
     ArrayList<body> listBody = new ArrayList<>();
+    ArrayList<switches> listSwitches = new ArrayList<>();
+    ArrayList<ammeter> listAmmeter = new ArrayList<>();
+    ArrayList<voltmeter> listVoltmeter = new ArrayList<>();
+    ArrayList<fuse> listFuse = new ArrayList<>();
+    ArrayList<are> listAre = new ArrayList<>();
     int ecs_apart;
     JSONObject a;
     String series = "";
@@ -48,13 +50,31 @@ public class listEq {
                     ecs_apart = a.getInt("ecs_apart");
                      }
 
+                if (a.getInt("eq_type") == 6){
+                    listSwitches.add(new switches(a.getInt("current"), a.getInt("poles"), a.getInt("reverse"), a.getString("series"), a.getInt("amount")));
+                }
+
+                if (a.getInt("eq_type") == 7){
+                    listAmmeter.add(new ammeter(a.getInt("amount"), a.getInt("type")));
+                }
+
+                if (a.getInt("eq_type") == 8){
+                    listVoltmeter.add(new voltmeter(a.getInt("amount"), a.getInt("type")));
+                }
+
+                if (a.getInt("eq_type") == 9){
+                    listFuse.add(new fuse(a.getInt("amount"), a.getString("series"), a.getInt("current")));
+                }
 
                 if (a.getInt("eq_type") == 10) {
                     listBody.add(new body(a.getInt("mnf"), a.getString("series"), a.getString("size"), a.getInt("ip"), 0, a.getInt("amount")));
                 }
 
-            }
+                if (a.getInt("eq_type") == 11) {
+                    listAre.add(new are(a.getInt("amount"), a.getInt("current")));
+                }
 
+            }
 
         }
 

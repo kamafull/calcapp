@@ -7,7 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/ammeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/are.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/fuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/switches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/voltmeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/asmbl3/calcAsmbl3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/priceforofferbytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/priceforofferbytype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/mnfBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/mnfBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/asmbl3/calcAsmbl3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/priceforofferbytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/priceforofferbytype.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +96,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Gleb\IdeaProjects\calcapp\.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -411,7 +438,10 @@
       <workItem from="1567663814812" duration="5407000" />
       <workItem from="1567692850513" duration="5622000" />
       <workItem from="1567758467904" duration="2536000" />
-      <workItem from="1568012954146" duration="1987000" />
+      <workItem from="1568012954146" duration="4491000" />
+      <workItem from="1568102783364" duration="4875000" />
+      <workItem from="1568185197777" duration="3726000" />
+      <workItem from="1568190271606" duration="3169000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -483,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568013876442</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <created>1568017897156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568017897156</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test">
+      <created>1568017907306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568017907306</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
