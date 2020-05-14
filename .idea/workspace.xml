@@ -6,30 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/docs/specifications/specAsmbl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/ammeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/are.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/fuse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/switches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/voltmeter.java" afterDir="false" />
+    <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/calcapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/calcapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/maths/asmbl3/calcAsmbl3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/listEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/listEq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/parts/circuitbreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/parts/circuitbreaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/builders/builderAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/builders/builderAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/mnfback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/mnfback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/priceforofferbytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/priceforofferbytype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/LoadFilesControlletV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/pricingListEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/pricingListEq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/mnfBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/mnfBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/circuitbreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/circuitbreaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/LoadFilesControlletV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/old/createspecs/specApartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/old/createspecs/specApartamentsw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/maths/asmbl3/calcAsmbl3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/listEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/listEq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/parts/circuitbreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/parts/circuitbreaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/builders/builderAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/builders/builderAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/mnfback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/mnfback.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/priceforofferbytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/priceforofferbytype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/pricingListEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/pricingListEq.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,41 +50,8 @@
       <entry key="cfac5c28-2666-4cd7-9223-f757a42b3408" value="Violet" />
     </colors>
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - circuit_breakers@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - circuit_breakers@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - circuit_breakers@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="circuit_breakers: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="calcapp" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,13 +74,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Gleb\IdeaProjects\calcapp\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -118,16 +88,15 @@
         <option name="userSettingsFile" value="C:\Users\Глеб\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1OdL6ifkzatginvf0z1aMECx1lN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -153,7 +122,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31149426" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="sql.rename.search.for.storage.occurrences" value="true" />
   </component>
   <component name="RecentsManager">
@@ -177,18 +146,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Глеб\IdeaProjects\calcapp\src\main\java\net\proselyte\jwtappdemo\security" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.JwtAppDemoApplication">
     <configuration name="testmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -319,21 +276,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7e0f74f0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -441,7 +383,13 @@
       <workItem from="1568012954146" duration="4491000" />
       <workItem from="1568102783364" duration="4875000" />
       <workItem from="1568185197777" duration="3726000" />
-      <workItem from="1568190271606" duration="3169000" />
+      <workItem from="1568190271606" duration="3272000" />
+      <workItem from="1568276397685" duration="5524000" />
+      <workItem from="1568363774852" duration="6074000" />
+      <workItem from="1589350685311" duration="94000" />
+      <workItem from="1589351474630" duration="533000" />
+      <workItem from="1589353348626" duration="645000" />
+      <workItem from="1589354824770" duration="6731000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -527,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568017907306</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <created>1568193559484</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568193559484</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -540,24 +495,33 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1589367426997">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1589367426997" />
+    <state x="301" y="7" key="SettingsEditor" timestamp="1589439479541">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1589439479541" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

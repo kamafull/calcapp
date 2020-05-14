@@ -19,7 +19,7 @@ public class pricingListEq {
 
         try (Connection con = DriverManager.getConnection(url, user, password); Statement stat = con.createStatement()) {
         for (circuitbreaker cb : list.getListCb()){
-                    String sql = "SELECT * FROM circuit_breakers.circuit_breakers WHERE current = " + cb.getCurrent() + " and voltage = " + cb.getVoltage() + " and mnf =" + cb.getManufacturer() + " and series ='" + cb.getSeries() + "' and poles =" + cb.getPoles() + " and bct ='" + cb.getBreaking_capacity_code()  + "';";
+                    String sql = "SELECT * FROM circuit_breakers.circuit_breakers WHERE current = " + cb.getCurrent() + " and voltage = " + cb.getVoltage() + " and series ='" + cb.getSeries() + "' and poles =" + cb.getPoles() + " and bct ='" + cb.getBreaking_capacity_code()  + "';";
                     ResultSet rs = stat.executeQuery(sql);
                     if (rs.next()) {
                         price += rs.getInt("price")*cb.getAmount();

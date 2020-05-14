@@ -4,7 +4,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import tech.equipment.asmbls.apartAsmbl3;
-import tech.equipment.details.circuitbreaker;
+import tech.equipment.details.parts.circuitbreaker;
 import tech.utils.other.mnfBack;
 
 import java.io.FileOutputStream;

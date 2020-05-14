@@ -20,11 +20,12 @@ public class MathEqControllerV1 {
     vruAsmbl2 asmbl2;
     builderAsmbl3 builderAsmbl3 = new builderAsmbl3();
     builderAsmbl2 builderAsmbl2 = new builderAsmbl2();
-    JSONObject result = new JSONObject();
+    //JSONObject result = new JSONObject();
     int price;
 
     @RequestMapping(value = "math/apartsw", method = RequestMethod.POST, consumes = MediaType.TEXT_PLAIN_VALUE)
     public String createapsw (@RequestBody String data) throws Exception {
+        JSONObject result = new JSONObject();
         System.out.println(data);
         asmbl3 = builderAsmbl3.resultAsmbl(data);
         price = calcAsmbl.price(asmbl3);
@@ -38,14 +39,18 @@ public class MathEqControllerV1 {
 
     @RequestMapping(value = "math/vru", method = RequestMethod.POST, consumes = MediaType.TEXT_PLAIN_VALUE)
     public String createvru (@RequestBody String data) throws Exception {
+        JSONObject result = new JSONObject();
         System.out.println(data);
         asmbl2 = builderAsmbl2.resultAsmbl(data);
-        price = calcAsmbl.pric(asmbl2);
+        System.out.println(asmbl2);
+        price = calcAsmbl.price2(asmbl2);
         System.out.println(price);
         System.out.println(asmbl2.getIdorder());
-        result.put("id", asmbl3.getIdorder());
+        result.put("id", asmbl2.getIdorder());
         result.put("price", price);
-        result.put("alarms", asmbl3.getAlarms());
+        result.put("alarms", asmbl2.getAlarms());
+        //System.out.println(result);
+        System.out.println(result);
         return result.toString();
     }
 

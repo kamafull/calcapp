@@ -31,8 +31,14 @@ public class builderAsmbl3 {
         JSONObject json = jsongen.getJSONObject("insw");
         JSONArray jj;
         jj = json.getJSONArray("list_eq");
-
         for (int i = 0; i < jj.length(); i++) {
+            if (jj.getJSONObject(i).getInt("eq_type") == 1) {
+                jj.getJSONObject(i).put("bct", "C");
+
+            }
+        }
+
+        /*for (int i = 0; i < jj.length(); i++) {
             if (jj.getJSONObject(i).getInt("eq_type") == 1){
                 if (jj.getJSONObject(i).getInt("mnf") == 3) jj.getJSONObject(i).put("series", "ВА47-29 (MVA20)");
                 if (jj.getJSONObject(i).getInt("mnf") == 6) jj.getJSONObject(i).put("series", "BasicM (Квартирный)");
@@ -51,13 +57,18 @@ public class builderAsmbl3 {
                 if (jj.getJSONObject(i).getInt("voltage") == 230) jj.getJSONObject(i).put("poles",1);
                 if (jj.getJSONObject(i).getInt("voltage") == 400) jj.getJSONObject(i).put("poles",3);
             }
-        }
+        }*/
 
         listEq_1 = new listEq(jj);
         json = jsongen.getJSONObject("outsw");
         jj = json.getJSONArray("list_eq");
-
         for (int i = 0; i < jj.length(); i++) {
+            if (jj.getJSONObject(i).getInt("eq_type") == 1) {
+                jj.getJSONObject(i).put("bct", "C");
+
+            }
+        }
+        /*for (int i = 0; i < jj.length(); i++) {
             if (jj.getJSONObject(i).getInt("eq_type") == 1){
                 if (jj.getJSONObject(i).getInt("mnf") == 3) jj.getJSONObject(i).put("series", "ВА47-29 (MVA20)");
                 if (jj.getJSONObject(i).getInt("mnf") == 6) jj.getJSONObject(i).put("series", "BasicM (Квартирный)");
@@ -76,10 +87,11 @@ public class builderAsmbl3 {
                 if (jj.getJSONObject(i).getInt("voltage") == 230) jj.getJSONObject(i).put("poles",1);
                 if (jj.getJSONObject(i).getInt("voltage") == 400) jj.getJSONObject(i).put("poles",3);
             }
-        }
+        }*/
 
         listEq_2 = new listEq(jj);
         apsw = new apartAsmbl3(type, name, listEq_1, listEq_2);
+        System.out.println(apsw);
 
         if (id == -1) apsw.newidorder();
         else apsw.setIdorder(id);

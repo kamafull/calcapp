@@ -9,14 +9,15 @@ import java.sql.SQLException;
 public class calcAsmbl {
 
     pricingListEq pr = new pricingListEq();
-    int price = 0;
+
     public int price(apartAsmbl3 asmbl) throws SQLException{
+        int price = 0;
         price = pr.price(asmbl.getListEq_1()) + pr.price(asmbl.getListEq_2()) + 1600;
         return price;
     }
 
-    public int pric (vruAsmbl2 asmbl) throws SQLException{
-
+    public int price2 (vruAsmbl2 asmbl) throws SQLException{
+        int price = 0;
         return price;
     }
 

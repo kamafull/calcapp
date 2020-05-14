@@ -22,6 +22,7 @@ public class listEq {
     ArrayList<fuse> listFuse = new ArrayList<>();
     ArrayList<are> listAre = new ArrayList<>();
     int ecs_apart;
+    int switch_type;
     JSONObject a;
     String series = "";
     public listEq(JSONArray list_eq) {
@@ -31,7 +32,7 @@ public class listEq {
                 a = (JSONObject) list_eq.get(i);
 
                 if (a.getInt("eq_type") == 1) {
-                    listCb.add(new circuitbreaker(a.getInt("current"), a.getInt("voltage"), a.getInt("mnf"), a.getInt("poles"), a.getString("series"), "4.5", "C", a.getInt("amount")));
+                    listCb.add(new circuitbreaker(a.getInt("current"), a.getInt("poles"), a.getString("series"), a.getString("bct"), a.getInt("amount")));
                 }
 
                 if (a.getInt("eq_type") == 2) {
@@ -71,6 +72,10 @@ public class listEq {
                 }
 
                 if (a.getInt("eq_type") == 11) {
+                    switch_type = a.getInt("switch_type");
+                }
+
+                if (a.getInt("eq_type") == 12) {
                     listAre.add(new are(a.getInt("amount"), a.getInt("current")));
                 }
 

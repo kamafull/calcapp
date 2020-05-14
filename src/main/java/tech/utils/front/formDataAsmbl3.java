@@ -23,27 +23,30 @@ public class formDataAsmbl3 {
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
-                    "          \"name\": \"voltage\",\n" +
+                    "          \"name\": \"series\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
-                    "          \"title\": \"Напряжение, В\",\n" +
+                    "          \"title\": \"Серия\",\n" +
                     "          \"values\": [\n" +
-                    "             230,\n" +
-                    "             400\n" +
-                    "          ]\n" +
-                    "       },\n" +
-                    "       {\n" +
-                    "          \"name\": \"mnf\",\n" +
-                    "          \"type\": \"fieldSelect\",\n" +
-                    "          \"title\": \"Производитель\",\n" +
-                    "          \"values\": [\n" +
+                    "     \n" +
                     "             {\n" +
-                    "                \"name\": \"IEK\",\n" +
-                    "                \"value\": 3\n" +
+                    "                \"name\": \"IEK ВА-47\",\n" +
+                    "                \"value\": \"ВА47-29 (MVA20)\"\n" +
                     "             },\n" +
                     "             {\n" +
-                    "                \"name\": \"ABB\",\n" +
-                    "                \"value\": 6\n" +
+                    "                \"name\": \"ABB BasicM\",\n" +
+                    "                \"value\": \"'BasicM (Квартирный)'\"\n" +
                     "             }\n" +
+                    "          ]\n" +
+                    "       },\n" +
+                    "\t   {\n" +
+                    "          \"name\": \"poles\",\n" +
+                    "          \"type\": \"fieldSelect\",\n" +
+                    "          \"title\": \"Кол-во полюсов\",\n" +
+                    "          \"values\": [\n" +
+                    "             1,\n" +
+                    "             2,\n" +
+                    "             3\n" +
+                    "             \n" +
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +

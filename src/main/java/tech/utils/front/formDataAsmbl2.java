@@ -22,42 +22,45 @@ public class formDataAsmbl2 {
                     "\t\t\t 800\n" +
                     "          ]\n" +
                     "       },\n" +
-                    "       {\n" +
-                    "          \"name\": \"voltage\",\n" +
-                    "          \"type\": \"fieldSelect\",\n" +
-                    "          \"title\": \"Напряжение, В\",\n" +
-                    "          \"values\": [\n" +
-                    "             400\n" +
-                    "          ]\n" +
-                    "       },\n" +
-                    "       {\n" +
-                    "          \"name\": \"mnf\",\n" +
-                    "          \"type\": \"fieldSelect\",\n" +
-                    "          \"title\": \"Производитель\",\n" +
-                    "          \"values\": [\n" +
-                    "             {\n" +
-                    "                \"name\": \"IEK\",\n" +
-                    "                \"value\": 3\n" +
-                    "             },\n" +
-                    "             {\n" +
-                    "                \"name\": \"ABB\",\n" +
-                    "                \"value\": 6\n" +
-                    "             }\n" +
-                    "          ]\n" +
-                    "       },\n" +
-                    "       {\n" +
+                    "      {\n" +
                     "          \"name\": \"series\",\n" +
                     "          \"type\": \"fieldSelect\",\n" +
                     "          \"title\": \"Серия\",\n" +
                     "          \"values\": [\n" +
                     "             {\n" +
-                    "                \"name\": \"ВА88\",\n" +
+                    "                \"name\": \"IEK ВА88\",\n" +
                     "                \"value\": \"ВА88\"\n" +
                     "             },\n" +
                     "             {\n" +
-                    "                \"name\": \"tMAX\",\n" +
+                    "                \"name\": \"ABB Tmax\",\n" +
                     "                \"value\": \"tMAX\"\n" +
                     "             }\n" +
+                    "          ]\n" +
+                    "       },\n" +
+                    "\t   {\n" +
+                    "          \"name\": \"bct\",\n" +
+                    "          \"type\": \"fieldSelect\",\n" +
+                    "          \"title\": \"Характеристика\",\n" +
+                    "          \"values\": [\n" +
+                    "             {\n" +
+                    "                \"name\": \"C\",\n" +
+                    "                \"value\": \"C\"\n" +
+                    "             },\n" +
+                    "             {\n" +
+                    "                \"name\": \"B\",\n" +
+                    "                \"value\": \"B\"\n" +
+                    "             }\n" +
+                    "          ]\n" +
+                    "       },\n" +
+                    "\t   {\n" +
+                    "          \"name\": \"poles\",\n" +
+                    "          \"type\": \"fieldSelect\",\n" +
+                    "          \"title\": \"Кол-во полюсов\",\n" +
+                    "          \"values\": [\n" +
+                    "             1,\n" +
+                    "             2,\n" +
+                    "             3\n" +
+                    "             \n" +
                     "          ]\n" +
                     "       },\n" +
                     "       {\n" +
