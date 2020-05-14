@@ -6,39 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/calcapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/calcapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="183e118d-7297-499c-baf6-a1b13ef88dc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/listEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/listEq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/parts/circuitbreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/equipment/details/parts/circuitbreaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/builders/builderAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/builders/builderAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/mnfback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/mnfback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/priceforofferbytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/priceforofferbytype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/pricingListEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/calcapp_war_exploded/WEB-INF/classes/tech/utils/other/pricingListEq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/rest/MathEqControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/listEq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/circuitbreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/equipment/details/parts/circuitbreaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/maths/asmbl3/calcAsmbl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/builders/builderAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/front/formDataAsmbl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/priceforofferbytype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/utils/other/pricingListEq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/old/createspecs/specApartamentsw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/old/createspecs/specApartamentsw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/rest/MathEqControllerV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/listEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/listEq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/equipment/details/parts/circuitbreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/equipment/details/parts/circuitbreaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/builders/builderAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/builders/builderAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/front/formDataAsmbl3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/mnfback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/mnfback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/priceforofferbytype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/priceforofferbytype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/utils/other/pricingListEq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/utils/other/pricingListEq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/old/createspecs/specSwitchboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/old/createspecs/specSwitchboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +359,7 @@
       <workItem from="1589350685311" duration="94000" />
       <workItem from="1589351474630" duration="533000" />
       <workItem from="1589353348626" duration="645000" />
-      <workItem from="1589354824770" duration="6731000" />
+      <workItem from="1589354824770" duration="8515000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564580843523</created>
@@ -482,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568193559484</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <created>1589439604062</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589439604062</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <created>1589439670733</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589439670733</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -514,10 +498,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1589367426997">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1589439669918">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1589367426997" />
+    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1589439669918" />
     <state x="301" y="7" key="SettingsEditor" timestamp="1589439479541">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
